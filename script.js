@@ -32,7 +32,7 @@ function operate(id) {
             updateDisplay(id);
     }
     else if (isOperator(id)) {
-        if (outputArea.textContent.length > 0 && !isOperator(outputArea.textContent)) {//output area not empty and does not have an operator already  
+        if (outputArea.textContent.length > 0 && !isOperator(outputArea.textContent) && operand1 === null) {//output area not empty and does not have an operator already  
             operand1 = outputArea.textContent;
             operator = id;
             updateDisplay(id, false, true);
@@ -49,8 +49,8 @@ function operate(id) {
         let result = calculate();
         updateDisplay(result, false, true);
         lastAnswer = result;
-        operand1=null;
-        operand2=null;
+        operand1 = null;
+        operand2 = null;
     }
 }
 
