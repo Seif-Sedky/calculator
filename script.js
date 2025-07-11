@@ -1,6 +1,5 @@
 const displayLimit = 20;
 const scientificNotationThreshhold = 12;
-let lastAnswer = null;
 let operand1 = null;
 let operand2 = null;
 let operator = null;
@@ -48,7 +47,6 @@ function operate(id) {
         operand2 = outputArea.textContent
         let result = calculate();
         updateDisplay(result, false, true);
-        lastAnswer = result;
         operand1 = null;
         operand2 = null;
     }
@@ -56,7 +54,6 @@ function operate(id) {
 
 
 function calculate() {
-    operand2 = operand2 || lastAnswer;
     let n1 = Number(operand1);
     let n2 = Number(operand2);
     let value = 0;
