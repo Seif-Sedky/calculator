@@ -86,9 +86,11 @@ a {
 
 #output {
 
-    padding-right: 18px;
+    padding-right: 40px;
     max-width: 100%;
     font-family: monospace;
+    letter-spacing: 1px;
+    font-weight: 900;
 }
 
 #buttons {
@@ -122,8 +124,8 @@ button {
 
     border: 0px;
 }
-
 .operator {
+
     background-color: gold;
 }
 
