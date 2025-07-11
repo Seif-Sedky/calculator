@@ -9,7 +9,7 @@ buttonsContainer.addEventListener("click", (e) => {
         operate(e.target.id);
     }
 });
-;
+
 
 function operate(id) {
     const outputArea = document.querySelector("#output");
