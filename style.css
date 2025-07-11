@@ -41,7 +41,7 @@ body {
 p,
 a {
     font-weight: 900;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     font-size: 26px;
 }
@@ -78,6 +78,17 @@ a {
     height: 100px;
     margin-top: 40px;
     border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#output {
+
+    padding-right: 18px;
+    max-width: 100%;
+    font-family: monospace;
 }
 
 #buttons {
@@ -108,6 +119,7 @@ button {
 
 .filler {
     background-color: black;
+
     border: 0px;
 }
 
@@ -119,4 +131,9 @@ button {
     background-color: grey;
     font-size: 40px;
 
+}
+
+#ac,
+#del {
+    background-color: rgb(158, 0, 0);
 }
