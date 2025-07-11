@@ -20,7 +20,7 @@ body {
 
 .header-left,
 .header-links {
-    background-color: gold;
+    background-color: rgb(230, 195, 0);
     border-bottom: 5px solid aliceblue;
 
     flex-grow: 1;
@@ -41,7 +41,7 @@ body {
 p,
 a {
     font-weight: 900;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     font-size: 26px;
 }
