@@ -109,7 +109,7 @@ a {
 button {
     flex-grow: 1;
     border-radius: 50%;
-    border: 2px solid rgb(158, 0, 0);
+    border: 2px solid crimson;
     height: 75px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
@@ -135,5 +135,7 @@ button {
 
 #ac,
 #del {
-    background-color: rgb(158, 0, 0);
+    background-color: crimson;
+    border: 2px solid rgb(100, 0, 20);
+
 }
