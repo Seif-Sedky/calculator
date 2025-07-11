@@ -16,7 +16,6 @@ function operate(id) {
 
     if (id === "ac") {
         updateDisplay('', false, true);
-        lastAnswer = null;
         operand1 = null;
         operand2 = null;
         operator = null;
